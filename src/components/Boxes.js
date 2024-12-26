@@ -15,34 +15,34 @@ const Boxes=()=>{
             <div className="block"  >
               <div className="block-inner  custom-nav-links" onClick={()=>handleImageClick('/resume')}>
                 <img className="custom-big-images" src="/images/1.jpg" alt="resume" />
-                <a  className="block-meta">
+                <span href="#" className="block-meta">
                   <span className="name" >Resume</span>
-                </a>
+                </span>
               </div>
             </div>
             <div className="block">
               <div className="block-inner custom-nav-links" onClick={()=>handleImageClick('/portfolio')}>
-                <img className="custom-big-images" src="images/2.jpg" alt="girl" />
-                <a className="block-meta">
+                <img className="custom-big-images" src="/images/2.jpg" alt="girl" />
+                <span className="block-meta">
                   <span className="name">Portfolio</span>
-                </a>
+                </span>
               </div>
             </div>
             <div className="block">
             <div className="block-inner custom-nav-links" onClick={()=>handleImageClick('/portfolio')}>
-                <img className="custom-big-images" src="images/4.jpeg" alt="icure" />
-                <a  className="block-meta">
+                <img className="custom-big-images" src="/images/4.jpeg" alt="icure" />
+                <span  className="block-meta">
                   <span className="name">Trailer rental</span>
-                </a>
+                </span>
               </div>
             </div>
             <div className="block">
             <div className="block-inner custom-nav-links" onClick={()=>handleImageClick('/book')}>
-                <img src="images/3.jpg" alt="mixtape"  className="custom-big-images"/>
-                <a  className="block-meta">
+                <img src="/images/3.jpg" alt="mixtape"  className="custom-big-images"/>
+                <span  className="block-meta">
                   <span className="name">Book</span>
                  
-                </a>
+                </span>
               </div>
             </div>
             <div className="block">
@@ -50,26 +50,26 @@ const Boxes=()=>{
                 <img
                 className="custom-big-images"
                  
-                  src="images/Perfect_Gentleman_Salon_Team_SMembers_Round 2 2.jpeg"
+                  src="/images/Perfect_Gentleman_Salon_Team_SMembers_Round-2.jpeg"
                   alt="iCURENudity"
                 />
-                <a  className="block-meta">
+                <span  className="block-meta">
                   <span className="name">
                     <div className="icurelight">About</div>
                   </span>
-                </a>
+                </span>
               </div>
             </div>
             <div className="block">
             <div className="block-inner custom-nav-links" onClick={()=>handleImageClick('/portfolio')}>
                 <img
                   className="custom-big-images"
-                  src="images/new_shop_page.jpeg"
+                  src="/images/new_shop_page.jpeg"
                   alt="jewel"
                 />
-                <a  className="block-meta">
+                <span  className="block-meta">
                   <span className="name">Gentleman's lab</span>
-                </a>
+                </span>
               </div>
             </div>
             <div className="block about-content">

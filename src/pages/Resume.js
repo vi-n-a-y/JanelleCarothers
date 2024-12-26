@@ -9,18 +9,15 @@ return (
             <p className="socialtext" id="contact1">
               LETS CONNECT + CREATE //
               <br /> <span className="small">3102001847</span>
-              <a
-                href="mailto:icurenudity@gmail.com"
-                target="_blank"
+              <span            
                 className="small"
               >
-                {" "}
                 // icurenudity@gmail.com{" "}
-              </a>
+              </span>
               <br /> i CURE NUDITY INC. //{" "}
-              <a href="http://instagram.com/icurenudity" target="_blank">
+              <span >
                 @icurenudity
-              </a>
+              </span>
               <br /> COSTUME DESIGNERS GUILD LOCAL 892
             </p>
           </div>
