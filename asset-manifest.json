@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/JanelleCarothers/static/css/main.544ab6fc.css",
-    "main.js": "/JanelleCarothers/static/js/main.60976845.js",
+    "main.js": "/JanelleCarothers/static/js/main.d103d855.js",
     "static/media/BiloxiScript.woff": "/JanelleCarothers/static/media/BiloxiScript.c8f6fa4a0841c445891c.woff",
     "static/media/GillSans-Light.otf": "/JanelleCarothers/static/media/GillSans-Light.c3cc27abbe4c1d75d971.otf",
     "static/media/GillSansBold.woff": "/JanelleCarothers/static/media/GillSansBold.ec8fd104adb77796c6be.woff",
     "index.html": "/JanelleCarothers/index.html",
     "main.544ab6fc.css.map": "/JanelleCarothers/static/css/main.544ab6fc.css.map",
-    "main.60976845.js.map": "/JanelleCarothers/static/js/main.60976845.js.map"
+    "main.d103d855.js.map": "/JanelleCarothers/static/js/main.d103d855.js.map"
   },
   "entrypoints": [
     "static/css/main.544ab6fc.css",
-    "static/js/main.60976845.js"
+    "static/js/main.d103d855.js"
   ]
 }
