@@ -14,15 +14,15 @@ const Boxes=()=>{
           <div className="blocks clearfix">
             <div className="block"  >
               <div className="block-inner  custom-nav-links" onClick={()=>handleImageClick('/resume')}>
-                <img className="custom-big-images" src="/images/1.jpg" alt="resume" />
-                <span href="#" className="block-meta">
+                <img className="custom-big-images" src="https://dev-all-in-one-dev.pantheonsite.io/wp-content/uploads/2024/12/1.jpg" alt="resume" />
+                <span className="block-meta">
                   <span className="name" >Resume</span>
                 </span>
               </div>
             </div>
             <div className="block">
               <div className="block-inner custom-nav-links" onClick={()=>handleImageClick('/portfolio')}>
-                <img className="custom-big-images" src="/images/2.jpg" alt="girl" />
+                <img className="custom-big-images" src="https://dev-all-in-one-dev.pantheonsite.io/wp-content/uploads/2024/12/2.jpg" alt="girl" />
                 <span className="block-meta">
                   <span className="name">Portfolio</span>
                 </span>
@@ -30,7 +30,7 @@ const Boxes=()=>{
             </div>
             <div className="block">
             <div className="block-inner custom-nav-links" onClick={()=>handleImageClick('/portfolio')}>
-                <img className="custom-big-images" src="/images/4.jpeg" alt="icure" />
+                <img className="custom-big-images" src="https://dev-all-in-one-dev.pantheonsite.io/wp-content/uploads/2024/12/4.jpeg" alt="icure" />
                 <span  className="block-meta">
                   <span className="name">Trailer rental</span>
                 </span>
@@ -38,7 +38,7 @@ const Boxes=()=>{
             </div>
             <div className="block">
             <div className="block-inner custom-nav-links" onClick={()=>handleImageClick('/book')}>
-                <img src="/images/3.jpg" alt="mixtape"  className="custom-big-images"/>
+                <img src="https://dev-all-in-one-dev.pantheonsite.io/wp-content/uploads/2024/12/3.jpg" alt="mixtape"  className="custom-big-images"/>
                 <span  className="block-meta">
                   <span className="name">Book</span>
                  
@@ -50,7 +50,7 @@ const Boxes=()=>{
                 <img
                 className="custom-big-images"
                  
-                  src="/images/Perfect_Gentleman_Salon_Team_SMembers_Round-2.jpeg"
+                  src="https://dev-all-in-one-dev.pantheonsite.io/wp-content/uploads/2024/12/Perfect_Gentleman_Salon_Team_SMembers_Round-2.jpeg"
                   alt="iCURENudity"
                 />
                 <span  className="block-meta">
@@ -64,7 +64,7 @@ const Boxes=()=>{
             <div className="block-inner custom-nav-links" onClick={()=>handleImageClick('/portfolio')}>
                 <img
                   className="custom-big-images"
-                  src="/images/new_shop_page.jpeg"
+                  src="https://dev-all-in-one-dev.pantheonsite.io/wp-content/uploads/2024/12/new_shop_page.jpeg"
                   alt="jewel"
                 />
                 <span  className="block-meta">
