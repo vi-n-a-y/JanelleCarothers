@@ -545,7 +545,6 @@ h1.title {
 #slider .owl-nav div.grid-view:before {
   font-family: 'squarespace-ui-font';
   font-style: normal;
-  speak: none;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   content: "\e014";
@@ -556,10 +555,7 @@ h1.title {
 .portfolio-blocks.hide-blocks{
   display: none;
 }
-.grid{
-  max-width: 100%;
-  margin: auto;
-}
+
 .preloader:before {
   content: "";
   background-color: #ffffff;
@@ -636,4 +632,122 @@ h3.about-title:before {
 .resume-block ul, .about-content{
   font-family:'GillSans', sans-serif;
   font-weight:300;
+}
+
+
+/* Portfolio Section */
+.portfolio-section {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+/* Grid Layout */
+.portfolio-blocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Grid Item */
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Image */
+.portfolio-image-wrapper {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+/* Hover Zoom Effect */
+.portfolio-image-wrapper:hover .portfolio-image {
+  transform: scale(1.1);
+}
+
+/* Title Wrapper */
+.title-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-image-wrapper:hover .title-wrapper {
+  opacity: 1;
+}
+
+/* Typography */
+.img-title {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+
+.view {
+  font-size: 14px;
+  color: #af8a4a; /* Accent color */
+}
+/* Container for the portfolio images */
+.custom-map-out-flex {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  gap: 20px; /* Space between items */
+}
+
+/* Each image container should take 25% width */
+.custom-portfolio-image-indi {
+  flex: 0 0 23%; /* Flexbox shorthand for: no grow, no shrink, take 25% of the width */
+  box-sizing: border-box; /* Ensures padding and border are included in width calculation */
+}
+
+/* Optional: Styling for image container (to control image size) */
+.custom-portfolio-img-width {
+  width: 100%; /* Ensure the image container uses full width of its flex item */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-portfolio-img-width img {
+  width: 100%; /* Image will take up 100% of the container */
+  height: auto;
+}
+
+/* Optional: styling for image captions */
+.custom-portfolio-img-width p {
+  text-align: center;
+  margin-top: 10px; /* Space between image and caption */
+}
+
+/* Optional: Make sure images are responsive on smaller screens */
+@media (max-width: 768px) {
+  .custom-portfolio-image-indi {
+    flex: 0 0 50%; /* On smaller screens, show 2 images per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-portfolio-image-indi {
+    flex: 0 0 100%; /* On very small screens, show 1 image per row */
+  }
 }
