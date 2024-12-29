@@ -29,7 +29,7 @@ const Boxes=()=>{
               </div>
             </div>
             <div className="block">
-            <div className="block-inner custom-nav-links" onClick={()=>handleImageClick('/portfolio')}>
+            <div className="block-inner custom-nav-links" onClick={()=>handleImageClick('/trailer-rental')}>
                 <img className="custom-big-images" src="https://dev-all-in-one-dev.pantheonsite.io/wp-content/uploads/2024/12/4.jpeg" alt="icure" />
                 <span  className="block-meta">
                   <span className="name">Trailer rental</span>
@@ -61,7 +61,7 @@ const Boxes=()=>{
               </div>
             </div>
             <div className="block">
-            <div className="block-inner custom-nav-links" onClick={()=>handleImageClick('/portfolio')}>
+            <div className="block-inner custom-nav-links" onClick={()=>handleImageClick('/gentleman-lab')}>
                 <img
                   className="custom-big-images"
                   src="https://dev-all-in-one-dev.pantheonsite.io/wp-content/uploads/2024/12/new_shop_page.jpeg"
