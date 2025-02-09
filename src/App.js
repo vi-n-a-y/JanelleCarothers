@@ -11,7 +11,7 @@ import GentlemanLab from './pages/GentlemanLab';
 
 function App() {
   return (
-    <Router basename="/JanelleCarothers">
+    <Router >
 <Header/>
 <main>
 <Routes>
